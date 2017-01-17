@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=2.0.1
+ENV VERSION=2.2.4
 
 RUN gem install hobo_fields --version ${VERSION} --no-format-exec
 
